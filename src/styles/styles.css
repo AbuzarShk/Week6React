@@ -1,0 +1,42 @@
+/* src/styles/styles.css */
+.blog-post {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  form div {
+    margin-bottom: 12px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    padding: 8px 16px;
+  }
+  
