@@ -2,11 +2,19 @@
 import React from 'react';
 import BlogPost from './BlogPost';
 
-function BlogList({ posts }) {
+function BlogList({ posts, onDelete }) {
   return (
-    <div className="blog-list">
+    <div className="row">
       {posts.map((post, index) => (
-        <BlogPost key={index} title={post.title} content={post.content} />
+        <div className="col-md-6" key={index}>
+          <BlogPost 
+            title={post.title} 
+            content={post.content} 
+            image={post.image} 
+            onDelete={onDelete} 
+            index={index} 
+          />
+        </div>
       ))}
     </div>
   );
