@@ -10,8 +10,8 @@ function App() {
   const [posts, setPosts] = useState(() => {
     const savedPosts = localStorage.getItem('posts');
     return savedPosts ? JSON.parse(savedPosts) : [
-      { title: 'First Post', content: 'This is the first blog post.', image: null },
-      { title: 'Second Post', content: 'This is the second blog post.', image: null },
+      { title: 'First News', content: 'Current News.', image: null },
+      { title: 'Second News', content: 'Yesterday News.', image: null },
     ];
   });
 

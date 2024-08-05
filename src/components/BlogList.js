@@ -8,7 +8,7 @@ function BlogList({ posts, onDelete }) {
       {posts.map((post, index) => (
         <div className="col-md-6" key={index}>
           <BlogPost 
-            title={post.title} 
+            News={post.title} 
             content={post.content} 
             image={post.image} 
             onDelete={onDelete} 

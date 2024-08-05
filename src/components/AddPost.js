@@ -58,7 +58,7 @@ function AddPost({ onAdd }) {
         />
       </div>
       <button type="submit" className="btn btn-primary">
-        Add Post
+        Add News
       </button>
     </form>
   );
